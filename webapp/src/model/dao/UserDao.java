@@ -23,7 +23,7 @@ public class UserDao {
 		  user=new User(rs.getString("userName"),
 				  rs.getString("password"),
 				  rs.getString("chrName"),
-				  rs.getString("role"));
+				  rs.getString("email"));
 	  }
 	  con.close();
   }
